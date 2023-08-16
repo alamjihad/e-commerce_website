@@ -1,0 +1,149 @@
+.loa{
+  padding-right: 5px;
+  background-color: #010E38;
+  color: white;
+  height: 33px;
+}
+.loa:hover{
+  cursor: pointer;
+}
+.se{
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  margin-top: 10px;
+  margin-left: 250px;
+  align-items: flex-end;
+  display: none;
+}
+.dol{
+  display: inline;
+}
+.dol:hover .se{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-top: 49px;
+  margin-left: 250px;
+  align-items: flex-end;
+  height: 150vh;
+  position: absolute;
+}
+
+
+
+
+
+
+
+.la{
+  padding-right: 5px;
+  background-color: #010E38;
+  color: white;
+  height: 33px;
+}
+.la:hover{
+  cursor: pointer;
+}
+.es{
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  margin-top: 40px;
+  margin-left: 300px;
+  align-items: flex-end;
+  display: none;
+}
+.dl{
+  display: inline;
+}
+.dl:hover .es{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-top: 40px;
+  margin-left: 300px;
+  align-items: flex-end;
+  height: 150vh;
+  position: absolute;
+}
+
+
+
+
+
+
+
+
+.lb{
+  padding-right: 5px;
+  background-color: #010E38;
+  color: white;
+  height: 33px;
+}
+.lb:hover{
+  cursor: pointer;
+}
+.lio{
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  margin-top: 40px;
+  margin-left: 300px;
+  align-items: flex-end;
+  display: none;
+}
+.doll{
+  display: inline;
+}
+.doll:hover .lio{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-top: 40px;
+  margin-left: 300px;
+  align-items: flex-end;
+  height: 150vh;
+  position: absolute;
+}
+
+
+
+
+
+
+
+
+
+.lv{
+  padding-right: 5px;
+  background-color: #010E38;
+  color: white;
+  height: 33px;
+}
+.lv:hover{
+  cursor: pointer;
+}
+.eg{
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  margin-top: 40px;
+  margin-left: 300px;
+  align-items: flex-end;
+  display: none;
+}
+.tig{
+  display: inline;
+}
+.tig:hover .eg{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-top: 40px;
+  margin-left: 300px;
+  align-items: flex-end;
+  height: 150vh;
+  position: absolute;
+}
+

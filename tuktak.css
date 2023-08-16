@@ -1,0 +1,32 @@
+.lo{
+  padding-right: 5px;
+  background-color: #010E38;
+  color: white;
+  height: 33px;
+}
+.lo:hover{
+  cursor: pointer;
+}
+.seve{
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  margin-top: 10px;
+  margin-left: 29px;
+  align-items: flex-end;
+  display: none;
+}
+.dil{
+  display: inline;
+}
+.dil:hover .seve{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-top: 49px;
+  margin-left: -55px;
+  align-items: flex-end;
+  height: 150vh;
+  position: absolute;
+}
+
