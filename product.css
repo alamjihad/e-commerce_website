@@ -1,9 +1,94 @@
 body{
   position: relative;
   font-size: inherit;
-  font-family:  'Noto Sans Display', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans Display', sans-serif;
   font-family: 'Roboto', sans-serif;
   background-color: rgba(242,243,246,1);
+}
+.add{
+  position: fixed;
+  bottom: 0;
+  padding: 5px 0px;
+  background-color: #fff;
+  color: #141d39;
+  text-align: center;
+  height: 40px;
+  font-size: 14px;
+  z-index: 100;
+}
+.buy{
+  display: flex;
+}
+.wish{
+  border: 1px solid black;
+  align-items: center;
+  display: flex;
+  margin-left: 41.3px;
+  padding-left: 33.5px;
+  padding-right: 33.5px; 
+  color: black;
+  margin-bottom: .5px;
+}
+.fix1{
+  padding-top: 13px;
+  background-color: #141d39;
+  color: #DDD;
+  margin-left: 11px;
+  align-items: center;
+  width: 458px;
+  font-size: 12px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  border-radius: 3px;
+  margin-bottom: .5px;
+}
+.now{
+  margin-left: 11px;
+  background-color: #00235b;
+  color: #f4f5f7;
+  align-items: center;
+  width: 121px;
+  padding-top: 13px;
+  font-size: 14px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  border-radius: 3px;
+  margin-bottom: .5px;
+}
+.pcbuild{
+  margin-left: 10px;
+  background-color: #ff5f13;
+  color: white;
+  padding-top: 13px;
+  width: 181px;
+  font-size: 14px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+}
+.list{
+  margin-left: 11px;
+  align-items: center;
+  border: 1px solid #f8530d;
+  width: 160px;
+  color: #f8530d;
+  padding-top: 12px;
+  font-size: 15px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+}
+.thispro{
+  margin-left: 17px;
+  border: 1px solid #f8530d;
+  color: #f8530d;
+  align-items: center;
+  width: 200px;
+  padding-top: 12px;
+  font-size: 15px;
+}
+.nothing{
+  color: white;
+  margin-left: 19px;
 }
 .logo:hover{
   cursor: pointer;
@@ -266,7 +351,7 @@ body{
   font-size: 14px;
   padding: 11px;
   margin-bottom:5px;
-  padding-right:512px;
+  padding-right:511px;
   position: relative;
   padding-bottom:10.85px;
   font-family:  'Noto Sans Display', sans-serif;
@@ -316,6 +401,7 @@ body{
   display: flex;
   position: relative;
   background-color:rgba(20,29,57,1);
+  margin-right: 3px;
 }
 .right{
   position: sticky;
@@ -338,6 +424,7 @@ nav{
 .right{
   position: sticky;
   margin-top:7px;
+  margin-right: 3px;
 }
 .third{
   height: 27px;
@@ -346,6 +433,7 @@ nav{
   font-weight: 400;
   font-size: 14px;
   margin-top: 1px;
+  margin-right: .5px;
 }
 .slash{
   margin-left: 6px;
@@ -353,6 +441,7 @@ nav{
   margin-right: 6px;
 }.lash{
   color: rgba(0,0,0,1);
+  font-family: 'Noto Sans', sans-serif;
 }
 .lash:hover{
   cursor: pointer;
@@ -532,12 +621,15 @@ nav{
   }
   .corporate{
     background-color: #f8530d;
-    color: white;
+    color: #ffffff;
     margin-top: 19px;
     margin-left: 39px;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
     margin-right: 5px;
+    font-weight: 500;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
   }
   .stock:hover{
     cursor: pointer;
@@ -949,7 +1041,7 @@ hr{
   .foot{
     background-color: rgba(5,12,46,1);
     margin-left: -40px;
-    margin-right: 0px;
+    margin-right: 2px;
     margin-bottom: -10px;
   
   }
