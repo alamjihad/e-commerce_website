@@ -782,14 +782,38 @@ nav{
   }
   .same_category{
     padding-left: 81.5px;
+    font-size: 14px;
     background-color: white;
-    padding-right: 82px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-right: 83px;
+    padding-top: 11px;
+    padding-bottom: 11px;
     border-radius: 5px;
     font-size: 15px;
     font-weight: 700;
     color: #1d1439;
+  }
+  .same_brand{
+    text-align: center;
+    font-size: 14px;
+    display: inline-block;
+    background-color: white;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-top: 25px;
+    margin-left: 63px;
+    color: #1d1439;
+    font-weight: 700;
+  }
+  .recently_viewed{
+    background-color: white;
+    font-size: 14px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    text-align: center;
+    margin-left: 63px;
+    margin-top: 23px;
+    color: #1d1439;
+    font-weight: 700;
   }
   .monitor{
     font-size: 15px;
@@ -826,7 +850,7 @@ nav{
     top:0;
   }
   .para3{
-    margin-top: 15px;
+    margin-top: 125px;
     background-color: white;
     margin-left: 29px;
     padding-top: 10px;
@@ -945,7 +969,7 @@ nav{
     margin-top: 20px;
     background-color: white;
     margin-left: 29px;
-    margin-right: 419px;
+    width: 70.3%;
     padding-top: 10px;
     padding-left: 14px;
     border-radius: 3px;
@@ -962,7 +986,7 @@ nav{
   .input1{
     height: 17px;
     padding: 6px 12px;
-    width: 833px;
+    width: 295px;
     margin-top:9px;
     margin-bottom:19px;
   }
@@ -972,7 +996,7 @@ nav{
   .input2{
     height: 99px;
     margin-top:9px;
-    width: 853px;
+    width: 905px;
   }
   .note{
     margin-top: 10px;
@@ -1034,10 +1058,17 @@ nav{
     cursor: pointer;
   }
 .asus{
-  background-color: white;
-  margin-right: -10px;
-  padding: 9px;
+  background: rgba(255, 255, 255, 1);
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-color: rgba(221, 221, 221, 1);
+  border-radius: 3px;
+  padding: 10px;
   margin-top: 11px;
+  margin-left: 61px;
+  width: 303px;
+  display: inline-block;
 }
 hr{
   opacity: 0.09;
