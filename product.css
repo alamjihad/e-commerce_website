@@ -130,14 +130,15 @@ body{
   transition: transform 2s;
 }
 .zoom{
+  margin-top: 49px;
   height:375px;
-  margin-top:51px;
-  display: block;
-  margin-left:-51px;
+  display: inline-block;
+  margin-left: 25px;
+
 }
 .gim:hover img{
-  transform: scale(3.3);
-  z-index: 2;
+  transform: scale(1.7);
+  z-index: 0;
   cursor:zoom-in;
 }
 .img
@@ -163,7 +164,7 @@ body{
   padding-right: 19px;
 }
 .callus{ 
-  margin-left: 28.5px;
+  margin-left: 10.5px;
   margin-top:11px;
   background-color: #010E38;
   color: white;
@@ -324,11 +325,11 @@ body{
   color: white;
 }
 .mmm{
-  margin-left: 6px;
   margin-top: 11px;
   padding: 5px;
   padding-bottom: 8.7px;
   padding-right: 16px;
+  margin-left: 2px;
 }
 .aaa{
   display: none;
@@ -419,6 +420,9 @@ body{
 i{
   font-size: 20px;
 }
+.new_pic{
+  display: flex;
+}
 nav{
   background-color:rgba(20,29,57,1);
   margin-top: -9px;
@@ -430,6 +434,10 @@ nav{
   position: sticky;
   margin-top:7px;
   margin-right: 3px;
+}
+.sticky{
+  position: sticky;
+  top:0;
 }
 .third{
   height: 27px;
@@ -461,7 +469,7 @@ nav{
   border-radius: 5px;
   margin-right: 17.5px;
   display: flex;
-  height: 100vh;
+  height: 115vh;
 }
 .small{
   display: inline-flex;
@@ -476,16 +484,18 @@ nav{
     color: white;
     background-color: #00235b;
     display: inline-block;
-    margin-left: 15px;
+    margin-left: 100px;
     padding: 4px;
     margin-bottom: 610px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    position: absolute;
+    z-index: 0;
   }
   .description{
-    margin-left:493px;
-    margin-top: -2px;
-    position: absolute;
+    margin-left: -19px;
+    margin-top: -3px;
+    
   }
   /*.pri{
     font-size: 13px;
@@ -500,6 +510,19 @@ nav{
     margin-left: 54px;
     margin-top: -12px;
     font-family:  'Noto Sans Display', sans-serif;
+    border: 1px solid f2f3f8 !important;
+    border-width: 0 !important;
+    border-top-width: 1px !important;
+    border-bottom-width: 0px !important;
+    border-style: solid !important;
+    border-color: rgba(159, 166, 189, 0.1) !important;
+  }
+  .tab{
+    border-width: 0 !important;
+    border-top-width: 1px !important;
+    border-bottom-width: 0px !important;
+    border-style: solid !important;
+    border-color: rgba(159, 166, 189, 0.1) !important;
   }
   .time{
     margin-top: -20px;
@@ -611,9 +634,10 @@ nav{
   }
   .pric{
     background-color: rgba(242,243,246,1);
-    margin-right: 15px;
-    margin-top: 0px;
-    margin-left: -5px;
+    padding-right: 23px;
+    margin-top: 15px;
+    margin-left: -3px;
+    position: static;
   }
   .moreinfo{
     display: flex;
@@ -631,7 +655,7 @@ nav{
     margin-left: 39px;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
-    margin-right: 5px;
+    margin-right: 10px;
     font-weight: 500;
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
@@ -781,10 +805,10 @@ nav{
     margin-right: 15px;
   }
   .same_category{
-    padding-left: 81.5px;
+    padding-left: 71.5px;
     font-size: 14px;
     background-color: white;
-    padding-right: 83px;
+    padding-right: 71px;
     padding-top: 11px;
     padding-bottom: 11px;
     border-radius: 5px;
@@ -800,9 +824,11 @@ nav{
     padding-top: 11px;
     padding-bottom: 11px;
     margin-top: 25px;
-    margin-left: 63px;
+    margin-left: 61px;
     color: #1d1439;
     font-weight: 700;
+    width: 87.5%;
+    border-radius: 5px;
   }
   .recently_viewed{
     background-color: white;
@@ -810,21 +836,23 @@ nav{
     padding-top: 11px;
     padding-bottom: 11px;
     text-align: center;
-    margin-left: 63px;
+    margin-left: 61px;
     margin-top: 23px;
     color: #1d1439;
     font-weight: 700;
+    width: 87.5%;
   }
   .monitor{
     font-size: 15px;
     padding: 10px 3px 10px 0px;
   }
   .tab{
-    padding-left: 25px;
+    padding-left: 17px;
     padding-top: 28px;
     margin-top: -14px;
     display: flex;
     flex-direction: column;
+    margin-left: 5px;
   }
   .name-attri{
     padding-top: 10px;
@@ -850,7 +878,6 @@ nav{
     top:0;
   }
   .para3{
-    margin-top: 125px;
     background-color: white;
     margin-left: 29px;
     padding-top: 10px;
@@ -874,7 +901,7 @@ nav{
     margin-top: -12px;
   }
   .main4{
-    margin-top: 20px;
+    margin-top: -285px;
     background-color: rgba(255,255,255,1);
     margin-left: 29px;
     margin-right: 419px;
@@ -969,7 +996,7 @@ nav{
     margin-top: 20px;
     background-color: white;
     margin-left: 29px;
-    width: 70.3%;
+    width: 71.7%;
     padding-top: 10px;
     padding-left: 14px;
     border-radius: 3px;
@@ -1057,6 +1084,9 @@ nav{
     color: #f8530d;
     cursor: pointer;
   }
+  hr{
+    opacity: 0.09;
+  }
 .asus{
   background: rgba(255, 255, 255, 1);
   border-width: 0;
@@ -1067,36 +1097,29 @@ nav{
   padding: 10px;
   margin-top: 11px;
   margin-left: 61px;
-  width: 303px;
-  display: inline-block;
-}
-hr{
-  opacity: 0.09;
+  width: 283px;
 }
 .scp{
   display: flex;
   flex-direction: column;
-  margin-left: 903.5px;
+  margin-left: 931.5px;
   margin-right: 30.5px;
   margin-top: -646px;
-  position: absolute;
 }
 .pcs{
   display: flex;
   flex-direction: column;
-  margin-left: 903.5px;
+  margin-left: 931.5px;
   margin-right: 30.5px;
-  margin-top: 45px;
-  position: absolute;
+  margin-top: -345px;
 }
 .cps{
   
   display: flex;
   flex-direction: column;
-  margin-left: 903.5px;
+  margin-left: 931.5px;
   margin-right: 30.5px;
-  margin-top: 709px;
-  position: absolute;
+  margin-top: -735px;
 }
 .sa{
   margin-left: 999px;
@@ -1313,18 +1336,18 @@ hr{
   }
   .kogo{
     margin-left: -157px;
-    margin-top: 25px;
+    margin-top: 15px;
   }
   .vogo{
-    margin-top: 45px;
+    margin-top: 35px;
     margin-left: -199px;
   }
   .jogo{
-    margin-top: 38px;
+    margin-top: 49px;
     margin-left: -95px;
   }
   .qogo{
-    margin-top: 58px;
+    margin-top: 69px;
     margin-left: -228.5px;
   }
   .togo{
@@ -1339,7 +1362,7 @@ hr{
   }
   .sogo{
     margin-left: -143px;
-    margin-top: 34px;
+    margin-top: 33px;
   }
   .copy{
     margin-top: 41px;
@@ -1372,7 +1395,7 @@ hr{
   }
   .nogo{
     margin-left: -120px;
-    margin-top: 7px;
+    margin-top: 13px;
   }
   .aogo:hover,
   .nogo:hover,
