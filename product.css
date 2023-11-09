@@ -1398,3 +1398,21 @@ nav{
     padding: 4px;
     border-radius: 5px;
   }
+
+
+
+
+
+
+
+  @media (max-width:600px) {
+    .left{
+      display: none;
+    }
+  }
+
+  @media (max-width:600px) {
+    .logo{
+      visibility: visible;
+    }
+  }

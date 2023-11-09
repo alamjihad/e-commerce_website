@@ -172,13 +172,15 @@ h2{
   padding: 10px;
   padding-bottom: 13px;
   padding-top: 8px;
+  cursor: pointer;
 }
 .aaa{
   display: none;
 }
+/* }
 .mmm:hover .aaa{
   display: block;
-}
+} */
 .moc{
   padding: 3.5px;
   border: 1px solid orangered;
@@ -389,10 +391,6 @@ i{
   margin-left: 730px;
   margin-top: -39px;
 }
-.four{
-  margin-left: 990px;
-  margin-top: -39px;
-}
 .five{
   margin-top: 40px;
   margin-left: 28px;
@@ -546,10 +544,11 @@ i{
   display: flex;
 }
 .four{
+  margin-left: 990px;
   display: flex;
   padding: 5px;
   margin-top: -47px;
-  display: inline-block: ;
+  /* display: inline-block; */
 }
 .pi:hover{
   cursor: pointer;
